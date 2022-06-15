@@ -38,6 +38,8 @@ while user != False:
             dir_input = input("Enter the name of the Director: ")
             mov_director = list(direct for direct in movies if dir_input.title() in direct["Director"])
             print(mov_director)
+        else:
+            print("Sorry try again :(")
     elif user_action.title() == "List":
         print(movies)
     elif user_action.title() == 'Quit':

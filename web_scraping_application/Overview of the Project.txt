@@ -1,0 +1,12 @@
+This projects scrapes the website https://books.toscrape.com
+
+Inside this website we are going to get the information of the books in this website such as the book name,
+rating, price  etc.
+
+Here are the paths which contain those information:
+
+Book :  'div.page_inner section li.col-xs-6'
+Name of the Book : 'article.product_pod h3 a.title'
+Link : 'article.product_pod h3 a.href'
+Price : 'article.product_price p.price_color'
+Rating : 'article.product_pod p.star-rating'

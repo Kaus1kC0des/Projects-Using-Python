@@ -36,5 +36,4 @@ book_generator = (x for x in books)
 def next_book():
     print(next(book_generator))
 
-
 menu()
